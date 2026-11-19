@@ -1,5 +1,5 @@
 # Prototype-2.0
-The second ai trading robot built by Ilex Travis.
+The second ai trading robot built by Ilex Travis. This is meant to rival and compete with Prototype1.0 the point of this is to compare and experiment. Gather data on growth. Find patterns in history/current history and make bets on the same events either occuring or against. Pick up on patterns in specific industries. Pick up on specific times of the year to invest into annual big company moves like Walmart during Christmas, for example. Generate and compile a consistent, effective technique after carefully gathering the patterns.
 
 # 🤖 Prototype 2.0: Event-Driven & Copy-Trading AI Bot
 
