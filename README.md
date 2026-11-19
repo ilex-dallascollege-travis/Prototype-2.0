@@ -3,7 +3,7 @@ The second ai trading robot built by Ilex Travis.
 
 # 🤖 Prototype 2.0: Event-Driven & Copy-Trading AI Bot
 
-**Prototype 2.0** is an autonomous, sentiment-driven algorithmic trading bot engineered to rival **Prototype 1.0**. While traditional bots rely purely on technical indicators and price action, Prototype 2.0 trades on real-world catalysts—combining macroeconomic news, geopolitical events, and "smart money" disclosures from top-performing traders and politicians.
+**Prototype 2.0** is an autonomous, sentiment driven algorithmic trading bot engineered to rival **Prototype 1.0**. While traditional bots rely purely on technical indicators and price action, Prototype 2.0 trades on real-world catalysts combining macroeconomic news, geopolitical events, and "smart money" disclosures from top-performing traders and politicians.
 
 ---
 
