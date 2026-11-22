@@ -1,5 +1,6 @@
 So the coding language I'll be using to build prototype 2.0 is going to be Python 3.12 as the main programming language. 
 
+
 The development environment is going to be in Visual Studio Code.
 
 Git and GitHub obviously are going to be the 'bookkeeper' where I control versions and project history.
@@ -15,3 +16,6 @@ Python-dotenv will be for securely managing API credentials.
 Pytest is what I'm going to be using for testing my code
 
 Alpaca-py is what I'll be using for stock and cryptocurrency integration. 
+
+
+I'll be introducing FinBERT, additional AI models, web scraping tools and broker integrations later.
