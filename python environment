@@ -1,5 +1,6 @@
 So the coding language I'll be using to build prototype 2.0 is going to be Python 3.12 as the main programming language. 
-
+If you are wondering why I'm choosing Python 3.12 is because it is a mature version with broad compatibility across the data science
+and financial programming ecosystem.
 
 The development environment is going to be in Visual Studio Code.
 
