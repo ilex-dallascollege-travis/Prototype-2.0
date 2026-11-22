@@ -1,22 +1,27 @@
-So the coding language I'll be using to build prototype 2.0 is going to be Python 3.12 as the main programming language. 
-If you are wondering why I'm choosing Python 3.12 is because it is a mature version with broad compatibility across the data science
-and financial programming ecosystem.
+The core programming language I'll be using to build Prototype 2.0 is Python 3.12. I chose Python 3.12 because it sits in a sweet spot:
+it delivers major speed improvements over older versions while remaining completely compatible with the entire data science, machine 
+learning, and financial programming ecosystem, meaning zero dependency headaches when scaling up later.
 
-The development environment is going to be in Visual Studio Code.
+The development environment is going to be Visual Studio Code. Beyond just writing code, VS Code gives me integrated debugging and a terminal access, virtual environment management, and instant linting so I can catch syntax or logic errors before running a single test.
 
-Git and GitHub obviously are going to be the 'bookkeeper' where I control versions and project history.
+Git and GitHub will act as the "bookkeeper" where I control versions and project history. Every time I test a new trading strategy, tweak an indicator, or fix a bug, Git tracks the exact changes, allowing me to experiment safely on separate branches and roll back immediately if a new idea underperforms.
 
-pandas  will be used for financial data analysis 
+pandas  will be used for financial data analysis. It allows me to structure raw market prices into clean time-series tables (DataFrames), align timestamps, handle missing market candles, and calculate rolling technical indicators like moving averages without writing messy code loops.
 
-NumPy is what will be doing the mathematical calculations
+NumPy will handle the heavy mathematical calculations. Under the hood, it runs fast, vectorized array math, which is essential for 
+calculating returns, volatility, signal thresholds, and statistical metrics across thousands of data points in milliseconds.
 
-Requests will be used for gathering information from APIs
+Requests will be used for gathering external information from REST APIs. Whenever I need data outside of my primary broker such as 
+macroeconomic calendars, news headlines, or alternative market feeds. Requests handles the HTTP calls, headers, and JSON parsing cleanly.
 
-Python-dotenv will be for securely managing API credentials. 
+Python-dotenv will be used for securely managing API credentials. Instead of hardcoding sensitive broker keys directly into my scripts
+where they could accidentally be exposed on GitHub, this library loads them privately from a local .env file at runtime.
 
-Pytest is what I'm going to be using for testing my code
+Pytest is what I'll be using for testing my code. In algorithmic trading, a single math bug or unhandled edge case can cause bad trades;
+Pytest lets me build automated checks to verify that my signal logic, order sizing, and risk rules behave exactly as expected before
+going live.
 
-Alpaca-py is what I'll be using for stock and cryptocurrency integration. 
+alpaca-py is the official SDK I'll be using for stock and cryptocurrency integration. It connects my Python logic directly to Alpaca's
+market data streams and trading engine, letting me test strategies safely in a paper-trading sandbox before transitioning to live execution.
 
-
-I'll be introducing FinBERT, additional AI models, web scraping tools and broker integrations later.
+Once this core foundation is solid, I'll be expanding prototype 2.0 by introducing FinBERT for financial news sentiment analysis, additional AI models, custom web scraping tools, and multi-broker integrations later on.
