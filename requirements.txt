@@ -1,13 +1,16 @@
-ect
-ect
-ect
-ect
-ect
-file placeholder
+# PROTOTYPE 2.0 DEPENDENCIES
 
+# Core data analysis
+pandas
+numpy
 
+# Data collection and APIs
+requests
+beautifulsoup4
+yfinance
 
-ahahaha 
+# Environment and configuration
+python-dotenv
 
-
-if ur seeing this ;)
+# Testing
+pytest
