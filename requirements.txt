@@ -1,16 +1,18 @@
 # PROTOTYPE 2.0 DEPENDENCIES
 
 # Core data analysis
-pandas
-numpy
+pandas>=2.0.0
+numpy>=1.24.0
 
 # Data collection and APIs
-requests
-beautifulsoup4
-yfinance
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+yfinance>=0.2.40
 
 # Environment and configuration
-python-dotenv
+python-dotenv>=1.0.0
+pydantic-settings>=2.0.0
+loguru>=0.7.0
 
 # Testing
-pytest
+pytest>=8.0.0
