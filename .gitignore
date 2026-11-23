@@ -1,13 +1,18 @@
-ect
-ect
-ect
-ect
-ect
-file placeholder
+# Environment & Secrets
+.env
+.venv/
+venv/
+__pycache__/
+*.py[cod]
 
+# Data & Logs (keep directory structure, ignore heavy files)
+data/raw/*
+data/processed/*
+data/historical/*
+!data/**/.gitkeep
+logs/*
+!logs/.gitkeep
 
-
-ahahaha 
-
-
-if ur seeing this ;)
+# IDE & OS
+.vscode/
+.DS_Store
