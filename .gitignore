@@ -1,0 +1,31 @@
+# Environments & Secrets
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Local data & backtest outputs (reproducible, never committed)
+data/
+reports/
+*.parquet
+*.csv
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
